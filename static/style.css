@@ -1,0 +1,45 @@
+/* Custom styles for HomeFinder app */
+
+.jumbotron {
+    background-color: #f8f9fa;
+    border-radius: 0.3rem;
+}
+
+.property-card {
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.property-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+    font-size: 1.2rem;
+}
+
+.loading {
+    padding: 20px;
+}
+
+.badge {
+    font-size: 0.9rem;
+}
+
+.form-check {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .property-card {
+        margin-bottom: 15px;
+    }
+    
+    .form-check {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
